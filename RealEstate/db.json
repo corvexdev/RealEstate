@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "name": "dfdsfdsf",
+      "email": "leonpllana10@gmail.com",
+      "password": "endrit3",
+      "id": "SxLP9XsK-xc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

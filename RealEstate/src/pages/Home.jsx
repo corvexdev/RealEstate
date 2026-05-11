@@ -1,12 +1,13 @@
-import Layout from "../componenets/Layout.jsx"
+import Layout from "../componenets/Layout.jsx";
 
-function Home() {
+function Home({ user, logout }) {
   return (
-    <Layout>
+    <Layout user={user} logout={logout}>
       <div className="text-center mt-20">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to Real Estate
         </h1>
+
         <p className="text-gray-600">
           Modern real estate platform
         </p>
@@ -16,7 +17,7 @@ function Home() {
         </button>
       </div>
     </Layout>
-  )
+  );
 }
 
-export default Home
+export default Home;

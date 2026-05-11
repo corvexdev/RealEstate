@@ -1,8 +1,8 @@
-import Layout from "../componenets/Layout"
+import Layout from "../componenets/Layout";
 
- function Contact() {
+function Contact({ user, logout }) {
   return (
-    <Layout>
+    <Layout user={user} logout={logout}>
       <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
 
       <form className="max-w-md space-y-4">
@@ -28,7 +28,7 @@ import Layout from "../componenets/Layout"
         </button>
       </form>
     </Layout>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
